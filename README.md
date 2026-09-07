@@ -1,46 +1,35 @@
-# Sam Pondevie — Data / MLOps Engineer
+# Sam Pondevie
 
-Ingénieur Data & IA (EFREI Paris, 2026). Orienté production : chaque projet est déployé, testé et monitoré — rien ne reste en notebook.
+EFREI Paris, promo 2026. Data / MLOps. Je cherche un premier poste en France.
 
-## Projets par domaine
+Ce que j’ai fait tourner :
 
-### Computer Vision (3D & 2D)
+## Vision
 
-| Projet | Description | Stack |
-|---|---|---|
-| [PointNet — Classification 3D](https://github.com/Airohh/pointnet-3d-classifier) | Classe un objet 3D depuis sa seule géométrie (mesh CAO → nuage de points). PointNet **from scratch**, robustesse caractérisée (bruit/occlusion/rotation), ONNX + API | PyTorch, trimesh, FastAPI, ONNX, Docker |
-| [Live Object Detector](https://github.com/Airohh/live-object-detector) · [démo](https://airohh.github.io/live-object-detector/) | Détection d'objets temps réel **dans le navigateur**, on-device (aucune image envoyée). PWA installable | TensorFlow.js, COCO-SSD, PWA |
+- [PointNet](https://github.com/Airohh/pointnet-3d-classifier) — classif 3D à partir d’un mesh (nuage de points). ONNX + API.
+- [Live Object Detector](https://github.com/Airohh/live-object-detector) ([démo](https://airohh.github.io/live-object-detector/)) — détection dans le navigateur, rien n’est envoyé.
 
-### NLP / RAG / agents
+## NLP / RAG
 
-| Projet | Description | Stack |
-|---|---|---|
-| [insight-mcp](https://github.com/Airohh/insight-mcp) | Serveur MCP retrieval-only : hybrid BM25 + dense (RRF), citations, Prometheus, Docker, CI. Pas d’inférence côté serveur | FastMCP, BM25, Fastembed, Docker |
-| [Syro](https://github.com/Airohh/Syro) | Assistant RAG hybride multi-domaines — BM25 + vecteurs denses + reranking | Qdrant, FastAPI, Docker, Prometheus |
-| [Fine-tuning Llama 3.3 70B](https://huggingface.co/Sam-Pdv) | QLoRA 4-bit NF4 sur A100 80GB — modèle + dataset FR publiés | Unsloth, bitsandbytes, HuggingFace |
+- [insight-mcp](https://github.com/Airohh/insight-mcp) — serveur MCP, recherche BM25 + dense, citations. Pas de génération côté serveur.
+- [Syro](https://github.com/Airohh/Syro) — RAG (BM25 + vecteurs + rerank), Qdrant.
+- [Llama 3.3 70B](https://huggingface.co/Sam-Pdv) — QLoRA sur A100. Modèle et dataset FR sur Hugging Face.
 
-### Time series / forecasting
+## Séries temporelles
 
-| Projet | Description | Stack |
-|---|---|---|
-| [Prévision éolienne SDWPF](https://github.com/Airohh/sdwpf-ml-time-serie) | Séries temporelles, walk-forward, évaluation honnête vs baselines | XGBoost, MLflow, Docker, GitHub Actions |
-| [Airport Forecasting](https://github.com/Airohh/airport-forecasting) | Prévision de trafic passagers (PAX) multi-aéroports | LightGBM, SARIMA, Python |
+- [SDWPF](https://github.com/Airohh/sdwpf-ml-time-serie) — prévision éolienne, walk-forward.
+- [Airport Forecasting](https://github.com/Airohh/airport-forecasting) — trafic passagers, LightGBM / SARIMA.
 
-### MLOps
+## MLOps
 
-| Projet | Description | Stack |
-|---|---|---|
-| [Proths](https://github.com/Airohh/Proths) | Lab MLOps : AG News, F1 holdout 0.73, journal `/predict`, drift, promote si le F1 monte | MLflow, FastAPI, Prometheus, Grafana, Docker |
+- [Proths](https://github.com/Airohh/Proths) — AG News, F1 0.73. Train, API, journal des prédictions, drift, retrain.
 
-## Stack
+## Outils
 
-`Python` · `SQL` · `MLflow` · `Docker` · `FastAPI` · `GitHub Actions` · `Prometheus / Grafana` · `Qdrant`
+Sur les repos : Python, SQL, MLflow, Docker, FastAPI, GitHub Actions, Prometheus, Qdrant.
 
-En mission (Accor / AKABI, pas de repo public) : `Snowflake` · `Terraform` · `GitLab CI` · `PySpark`
+Chez Accor (mission AKABI, 2025, pas de repo public) : Snowflake, Terraform, GitLab CI, PySpark.
 
-## Expérience
+Stage data analyst, SAP Barcelone, 2023-24.
 
-- **Data Engineer (mission Accor)** — AKABI, 2025 : pipelines Snowflake, SQL, Terraform, CI/CD GitLab
-- **Data Analyst (stage)** — SAP Barcelone, 2023-24
-
-📫 sam.pondevie@gmail.com · 🤗 [huggingface.co/Sam-Pdv](https://huggingface.co/Sam-Pdv)
+sam.pondevie@gmail.com · [huggingface.co/Sam-Pdv](https://huggingface.co/Sam-Pdv)
